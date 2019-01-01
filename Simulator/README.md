@@ -9,7 +9,7 @@ pip install dronekit
 pip install dronekit-sitl
 ```
 ### To run
-```console
+```
 python dronekit-sitl copter --home=55.472063,10.414156,0,90
 python mavproxy.py --master tcp:127.0.0.1:5760 --out udp:127.0.0.1:14551 --out udp:127.0.0.1:14550
 python MAVLink.py
