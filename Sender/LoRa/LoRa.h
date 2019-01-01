@@ -32,7 +32,7 @@ public:
 	void opmode(uint8_t mode);
 	void startRtt();
 	void startFileTransfer();
-	void startBERtest();
+	void startPERtest();
 	void send(char *);
 	void sendCommand(char *);
 private:

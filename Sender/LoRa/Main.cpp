@@ -7,7 +7,7 @@ using namespace std;
 int main(int argc, char *argv[])
 {
 	if (argc < 2) {
-		printf("Error: unknown command, use oneone of the following arguments: sender, receive, datarate, rtt, filesend, ber or command \n");
+		printf("Error: unknown command, use oneone of the following arguments: sender, receive, rtt, filesend, per or command \n");
 		exit(1);
 	}
 	// Create LoRa object
@@ -37,7 +37,7 @@ int main(int argc, char *argv[])
 	else if(!strcmp("filesend", argv[1])) {
 		LoRa.startFileTransfer();
 	}
-	else if(!strcmp("ber", argv[1])) {
+	else if(!strcmp("per", argv[1])) {
 		LoRa.startBERtest();
 	}
 	else if(!strcmp("command", argv[1])) {
@@ -48,7 +48,7 @@ int main(int argc, char *argv[])
 		LoRa.sendCommand(argv[2]);
 	}
 	else {
-		printf("Error: unknown command, use one of the following arguments: sender, receive, datarate, rtt, filesend, ber or command \n");		
+		printf("Error: unknown command, use one of the following arguments: sender, receive, rtt, filesend, per or command \n");		
 	}
 	//-------------------------------------------------------------------------------------------------//
 	return (0);

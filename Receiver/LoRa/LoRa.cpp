@@ -486,8 +486,8 @@ void LoRa::getFile() {
     fclose(file2);
 }
 
-// Start BER test (requires the sender to run an equivalent BER test function)
-void LoRa::getBER() {
+// Start PER test (requires the sender to run an equivalent PER test function)
+void LoRa::getPER() {
     int numerrors = 0;
     int sequenceNum = 0;
     int recvSeqNum = 0;

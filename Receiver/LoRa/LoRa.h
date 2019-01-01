@@ -50,7 +50,7 @@ public:
 	void getDatarate();
 	void getRtt();
 	void getFile();
-	void getBER();
+	void getPER();
 	void send(char *);
 	void receivecommand();
 private:

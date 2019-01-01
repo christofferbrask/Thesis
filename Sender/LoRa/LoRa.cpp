@@ -343,8 +343,8 @@ void LoRa::startFileTransfer() {
 	}
 	fclose(file);
 }
-// Start BER test (an eequivalent function should run on the receivr)
-void LoRa::startBERtest() {
+// Start PER test (an eequivalent function should run on the receivr)
+void LoRa::startPERtest() {
 	int sequenceNum = 0;
 	// Unique payload known at the receiver and is used to test if payload errors has occured
 	string hello = "HelloWorld";
