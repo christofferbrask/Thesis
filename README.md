@@ -9,6 +9,6 @@ The following repository contains the source code to the implemented prototypes,
 * The implementation in the [SF6](https://github.com/christofferbrask/Thesis/tree/master/Sender/SF6) folder is able to run the run the equivalent test modes to the receiver with a spreading factor of 6.
 * The only difference in the implementation of the [TTN node](https://github.com/christofferbrask/Thesis/tree/master/Sender/TTN%20node) is the device address. 
 ## Links
-[[1]](https://youtu.be/Kvb3IbS0xYI) Video - Simulation of drone, that runs a MAVLink script.
-[[2]](https://youtu.be/-3Y6np6e9lA) Video - Drone control.
-[[3]](https://bit.ly/2LzhaC5) Google Maps - In-air operation test
+[[1]](https://youtu.be/Kvb3IbS0xYI) Video - Simulation of drone, that runs a MAVLink script. <br />
+[[2]](https://youtu.be/-3Y6np6e9lA) Video - Drone control. <br />
+[[3]](https://bit.ly/2LzhaC5) Google Maps - In-air operation test <br />
