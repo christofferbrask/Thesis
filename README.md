@@ -11,4 +11,4 @@ The following repository contains the source code to the implemented prototypes,
 ## Links
 [[1]](https://youtu.be/Kvb3IbS0xYI) Video - Simulation of drone, that runs a MAVLink script. <br />
 [[2]](https://youtu.be/-3Y6np6e9lA) Video - Drone control. <br />
-[[3]](https://bit.ly/2LzhaC5) Google Maps - In-air operation test <br />
+[[3]](https://bit.ly/2LzhaC5) Google Maps - In-air operation test. <br />
