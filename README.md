@@ -8,6 +8,8 @@ The following repository contains the source code to the implemented prototypes,
 * The implementation in the [LoRa](https://github.com/christofferbrask/Thesis/tree/master/Sender/LoRa) folder is able to run the equivalent test modes to the receiver. The sender does not generate any log files with measurments, but is used to provide the different data that are required on the receiver. The sender is also able to respond on the ping message used in the round trip time test.
 * The implementation in the [SF6](https://github.com/christofferbrask/Thesis/tree/master/Sender/SF6) folder is able to run the run the equivalent test modes to the receiver with a spreading factor of 6.
 * The only difference in the implementation of the [TTN node](https://github.com/christofferbrask/Thesis/tree/master/Sender/TTN%20node) is the device address. 
+## Simulator
+* The folder contains the python script that is used to simulate the behavior of a drone in Mission Planner.
 ## Links
 [[1]](https://youtu.be/Kvb3IbS0xYI) Video - Simulation of drone, that runs a MAVLink script. <br />
 [[2]](https://youtu.be/-3Y6np6e9lA) Video - Drone control. <br />
